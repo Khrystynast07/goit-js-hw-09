@@ -1,2 +1,2 @@
-import"./assets/styles-B4s-4mBC.js";console.log("Form");
+import"./assets/styles-B4s-4mBC.js";const t="feedback-msg",a=document.querySelector(".feedback-form"),n=a.querySelector("input"),o=a.querySelector("textarea");a.addEventListener("submit",s);n.addEventListener("input",l);o.addEventListener("textarea",onTextareaMsg);function l(e){const r=e.target.value;localStorage.setItem(t,r)}function s(e){if(e.preventDefault(),!t.email||!t.message){alert("Please, fill all fields");return}e.currentTarget.reset(),localStorage.removeItem(t)}
 //# sourceMappingURL=2-form.js.map
