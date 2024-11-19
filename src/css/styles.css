@@ -35,15 +35,6 @@ li {
   height: auto;
   cursor: pointer;
 }
-.sl-wrapper .sl-navigation button.sl-next {
-  color: #ffffff;
-}
-.sl-wrapper .sl-navigation button.sl-prev {
-  color: #ffffff;
-}
-.sl-wrapper button.sl-close {
-  color: #ffffff;
-}
 /* #endregion gallery */
 
 /* #region form */
