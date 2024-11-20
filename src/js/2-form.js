@@ -34,6 +34,9 @@ function handleSubmit(event) {
     alert('Please, fill all fields');
     return;
   }
+
+  console.log('Submitted data:', formData);
+  
   event.currentTarget.reset();
   localStorage.removeItem('feedback-form-state');
   formData.email = '';
