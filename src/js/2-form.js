@@ -9,9 +9,11 @@ form.addEventListener('input', handleInput);
 function loadFormData() {
   const savedData = localStorage.getItem('feedback-form-state');
   if (savedData) {
-    const formData = JSON.parse(savedData);
+    const data = JSON.parse(savedData);
     emailInput.value = formData.email || '';
     messageInput.value = formData.message || '';
+    formData.email = data.email || '';
+    formData.message = data.message || '';
   }
 }
 loadFormData();
